@@ -7,7 +7,7 @@ This tech assessment was built using FastAPI with PostgreSQL DB, and using React
 ```Dotenv
 BACK_NAME=backend
 BACK_HOST=0.0.0.0
-BACK_PORT=8080
+BACK_PORT=8000
 
 POSTGRES_HOST=db
 POSTGRES_PORT=5432
