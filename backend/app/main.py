@@ -11,4 +11,4 @@ app = FastAPI(title=config.BACK_NAME, docs_url="/api/docs", openapi_url="/api")
 app.include_router(offers_routes.router, prefix="/api")
 
 if __name__ == "__main__":
-    uvicorn.run("main:app", host=config.BACK_HOST, reload=True, port=config.BACK_PORT)
+    uvicorn.run("main:app", host=config.BACK_HOST, reload=True, port=int(config.BACK_PORT))

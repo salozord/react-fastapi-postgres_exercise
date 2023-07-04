@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, ARRAY
 
-from core.database import Base
+from app.core.database import Base
 
 class Offer(Base):
     __tablename__ = "offers"
